@@ -11,6 +11,7 @@ endpoint (`/socket.io`) on a Vapor app's WebSocket router. Re-exports `SocketIOC
 ```
 
 ```swift
+import Vapor
 import SocketIOVapor
 
 func configure(_ app: Application) async throws {
