@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "SocketIOVapor", targets: ["SocketIOVapor"]),
     ],
     dependencies: [
-        .package(path: "../socket.io-server-swift"),
+        .package(url: "https://github.com/ivanvranjic/socket.io-server-swift.git", .upToNextMinor(from: "0.1.0")),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.115.0"),
     ],
     targets: [

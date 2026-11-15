@@ -5,8 +5,8 @@ endpoint (`/socket.io`) on a Vapor app's WebSocket router. Re-exports `SocketIOC
 
 ```swift
 // Package.swift
-.package(path: "../socket.io-server-swift"),         // or git URLs
-.package(path: "../socket.io-server-swift-vapor"),
+.package(url: "https://github.com/ivanvranjic/socket.io-server-swift.git", .upToNextMinor(from: "0.1.0")),
+.package(url: "https://github.com/ivanvranjic/socket.io-server-swift-vapor.git", .upToNextMinor(from: "0.1.0")),
 .product(name: "SocketIOVapor", package: "socket.io-server-swift-vapor")
 ```
 
