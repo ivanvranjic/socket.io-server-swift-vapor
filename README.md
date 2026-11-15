@@ -1,6 +1,6 @@
 # socket.io-server-swift-vapor
 
-[Vapor](https://vapor.codes) 4 adapter for [socket.io-server-swift](../socket.io-server-swift). Mounts a Socket.IO v4
+[Vapor](https://vapor.codes) 4 adapter for [socket.io-server-swift](https://github.com/ivanvranjic/socket.io-server-swift). Mounts a Socket.IO v4
 endpoint (`/socket.io`) on a Vapor app's WebSocket router. Re-exports `SocketIOCore`, so one import is enough.
 
 ```swift
